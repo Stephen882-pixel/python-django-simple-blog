@@ -1,25 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a68b8d-190b-45d1-9cf9-84a796952b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/simpleblog.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleblog/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleblog/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleblog/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleblog/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/simpleblog/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/theblog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theblog/templates/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -88,7 +92,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731935091444</updated>
-      <workItem from="1731935094548" duration="417000" />
+      <workItem from="1731935094548" duration="1403000" />
     </task>
     <servers />
   </component>
