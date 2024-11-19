@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a68b8d-190b-45d1-9cf9-84a796952b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theblog/templates/Base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,7 @@
       <workItem from="1731943821203" duration="2437000" />
       <workItem from="1731979046115" duration="55000" />
       <workItem from="1731979181123" duration="91000" />
-      <workItem from="1731979346853" duration="694000" />
+      <workItem from="1731979346853" duration="3097000" />
     </task>
     <servers />
   </component>
