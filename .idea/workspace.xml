@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d4a68b8d-190b-45d1-9cf9-84a796952b28" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/theblog/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/theblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/views.py" afterDir="false" />
     </list>
@@ -18,19 +16,23 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2p1YXsOFPsO04PJJvwD21xktdtu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -39,6 +41,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
     "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -47,6 +50,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -92,7 +96,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1731935091444</updated>
-      <workItem from="1731935094548" duration="1403000" />
+      <workItem from="1731935094548" duration="2701000" />
+      <workItem from="1731943821203" duration="2437000" />
+      <workItem from="1731979046115" duration="55000" />
+      <workItem from="1731979181123" duration="91000" />
+      <workItem from="1731979346853" duration="694000" />
     </task>
     <servers />
   </component>
