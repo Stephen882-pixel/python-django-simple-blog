@@ -9,14 +9,14 @@
     <a href="{% url 'delete_post' post.pk %}">Delete</a> <br></small><br>
 <hr>
 <br>
-{{post.body}}
+{{post.body|safe}}
 {% else %}
 <h1>{{post.title}}</h1>
 <small>By: {{post.author.first_name}} {{post.author.last_name}} - {{post.post_date}} <br>
     <hr>
-    {{post.body}}
-{% endif %}
+    {{ post.body|safe }}
+    {% endif %}
 
-<br><br>
-<a class="btn btn-secondary" href="{% url 'home' %}">Back</a>
-{% endblock %}
+    <br><br>
+    <a class="btn btn-secondary" href="{% url 'home' %}">Back</a>
+    {% endblock %}

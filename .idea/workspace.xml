@@ -7,14 +7,7 @@
     <list default="true" id="d4a68b8d-190b-45d1-9cf9-84a796952b28" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleblog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleblog/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/simpleblog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/simpleblog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/Add_Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/Add_Post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/Articles_Details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/Base.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/Base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/Update_Post.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/Update_Post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/delete_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/delete_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/theblog/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/templates/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/theblog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/theblog/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +101,7 @@
       <workItem from="1731979181123" duration="91000" />
       <workItem from="1731979346853" duration="9155000" />
       <workItem from="1732036693693" duration="5592000" />
-      <workItem from="1732112598216" duration="10872000" />
+      <workItem from="1732112598216" duration="12186000" />
     </task>
     <servers />
   </component>
