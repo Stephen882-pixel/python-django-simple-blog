@@ -7,7 +7,7 @@
 <ul>
     {% for post in object_list %}
     {% if user.is_authenticated %}
-    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} -
+    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} - {{ post.category }} -
     </a>{{post.author.first_name}}
         {{post.author.last_name}}
         - {{post.post_date}}
@@ -15,7 +15,7 @@
         <a href="{% url 'update_post' post.pk %}">Edit</a> <a href="{% url 'delete_post' post.pk %}">Delete</a><br>
         {{post.body|slice:"200"}}
         {% else %}
-    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} -
+    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} -  {{ post.category }} -
     </a>{{post.author.first_name}}
         {{post.author.last_name}}
         - {{post.post_date}} <br>
