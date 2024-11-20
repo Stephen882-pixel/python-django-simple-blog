@@ -1,6 +1,8 @@
 {% extends 'Base.html' %}
 {% block title %} {{post.title_tag}} {% endblock %}
 {% block content %}
+
+{% if user.is_authenticated %}
 <h1>{{post.title}}</h1>
 <small>By: {{post.author.first_name}} {{post.author.last_name}} - {{post.post_date}} -
     <a href="{% url 'update_post' post.pk %}">Edit</a>
@@ -8,6 +10,12 @@
 <hr>
 <br>
 {{post.body}}
+{% else %}
+<h1>{{post.title}}</h1>
+<small>By: {{post.author.first_name}} {{post.author.last_name}} - {{post.post_date}} <br>
+    <hr>
+    {{post.body}}
+{% endif %}
 
 <br><br>
 <a class="btn btn-secondary" href="{% url 'home' %}">Back</a>

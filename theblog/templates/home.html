@@ -6,11 +6,23 @@
 
 <ul>
     {% for post in object_list %}
-    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} - </a>{{post.author.first_name}} {{post.author.last_name}} - {{post.post_date}}
-        -
-        <a href="{% url 'update_post' post.pk %}">Edit</a> <a href="{% url 'delete_post' post.pk %}">Delete</a><br>
+    {% if user.is_authenticated %}
+    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} -
+    </a>{{post.author.first_name}}
+        {{post.author.last_name}}
+        - {{post.post_date}}
 
-        {{post.body}}
+        <a href="{% url 'update_post' post.pk %}">Edit</a> <a href="{% url 'delete_post' post.pk %}">Delete</a><br>
+        {{post.body|slice:"200"}}
+        {% else %}
+    <li><a href="{% url 'detail' post.pk %}"> {{post.title}} -
+    </a>{{post.author.first_name}}
+        {{post.author.last_name}}
+        - {{post.post_date}} <br>
+
+        {{post.body|slice:"200"}}
+
+        {% endif %}
     </li>
     {% endfor %}
 </ul>
