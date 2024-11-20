@@ -49,6 +49,9 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+USE_TZ = True
+
+TIME_ZONE = 'Africa/Nairobi'
 
 ROOT_URLCONF = 'simpleblog.urls'
 

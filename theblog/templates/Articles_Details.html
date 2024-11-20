@@ -2,11 +2,13 @@
 {% block title %} {{post.title_tag}} {% endblock %}
 {% block content %}
 <h1>{{post.title}}</h1>
-<small>By: {{post.author.first_name}} {{post.author.last_name}} - <a href="{% url 'update_post' post.pk %}">Edit</a><br></small><br>
+<small>By: {{post.author.first_name}} {{post.author.last_name}} - {{post.post_date}} -
+    <a href="{% url 'update_post' post.pk %}">Edit</a>
+    <a href="{% url 'delete_post' post.pk %}">Delete</a> <br></small><br>
 <hr>
 <br>
 {{post.body}}
 
 <br><br>
-<a href="{% url 'home' %}" class="btn btn-secondary" >Back</a>
-    {% endblock %}
+<a class="btn btn-secondary" href="{% url 'home' %}">Back</a>
+{% endblock %}
