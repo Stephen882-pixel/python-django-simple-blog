@@ -12,8 +12,9 @@
         {{post.author.first_name}}
         {{post.author.last_name}}
         - {{post.post_date}}
-
+        {% if user.id == post.author.id %}
         <a href="{% url 'update_post' post.pk %}">Edit</a> <a href="{% url 'delete_post' post.pk %}">Delete</a><br>
+        {%  endif %}
         {{post.body|slice:"200"}}
         {% else %}
     <li><a href="{% url 'detail' post.pk %}"> {{post.title}} - {{ post.category }} -
